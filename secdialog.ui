@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecDialog</class>
+ <widget class="QDialog" name="SecDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>360</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_lopgout">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>400</y>
+     <width>145</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>201</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_sylabus">
+      <property name="text">
+       <string>Sylabus</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_cnote">
+      <property name="text">
+       <string>Class Note</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_notice">
+      <property name="text">
+       <string>Notice</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_classroutine">
+      <property name="text">
+       <string>Class Routine</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bus_schedule">
+      <property name="text">
+       <string>Bus Schedule</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="iiuc_campus_map">
+      <property name="text">
+       <string>IIUC Campus Map</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="share_your_assignment">
+      <property name="text">
+       <string>Share Your Assignment</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="contact_your_teacher">
+      <property name="text">
+       <string>Contact Your Teacher</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="tutorial">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>10</y>
+     <width>110</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Help and Tutorial</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>50</y>
+     <width>158</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="devolop_your_programming_skill">
+      <property name="text">
+       <string>Devolop Your programming skill</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="talk_to_ypur_friend">
+      <property name="text">
+       <string>Talk To Your Friend</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="adviser">
+      <property name="text">
+       <string>About Your Adviser</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="watch_your_student_profile">
+      <property name="text">
+       <string>Watch Your Student Profile</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="advice_us">
+      <property name="text">
+       <string>Advice Us</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SecDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>329</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

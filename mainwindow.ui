@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1035</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>160</y>
+      <width>341</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Sign in</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>271</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>User Name</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_username"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Password</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_password">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_login">
+          <property name="text">
+           <string>Login</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_close">
+          <property name="text">
+           <string>Close</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>611</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>221</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tutorial">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>425</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Help and Tutorial</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1035</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuoption">
+    <property name="title">
+     <string>option</string>
+    </property>
+    <widget class="QMenu" name="menubook">
+     <property name="title">
+      <string>book</string>
+     </property>
+     <property name="separatorsCollapsible">
+      <bool>false</bool>
+     </property>
+     <widget class="QMenu" name="menu1st">
+      <property name="title">
+       <string>CSE</string>
+      </property>
+      <addaction name="actionCSE1st"/>
+      <addaction name="actionCSE2nd"/>
+      <addaction name="actionCSE3rd"/>
+      <addaction name="actionCSE4th"/>
+      <addaction name="actionCSE5th"/>
+      <addaction name="actionCSE6th"/>
+      <addaction name="actionCSE7th"/>
+      <addaction name="actionCSE8th"/>
+     </widget>
+     <widget class="QMenu" name="menu2nd">
+      <property name="title">
+       <string>EEE</string>
+      </property>
+      <addaction name="action2AM"/>
+      <addaction name="action2BM"/>
+      <addaction name="action2CM"/>
+      <addaction name="action2AF"/>
+      <addaction name="action5th_3"/>
+      <addaction name="action6th_3"/>
+      <addaction name="action7th_3"/>
+      <addaction name="action8th_3"/>
+     </widget>
+     <widget class="QMenu" name="menu3rd">
+      <property name="title">
+       <string>ETE</string>
+      </property>
+      <addaction name="action3AM"/>
+      <addaction name="action3BM"/>
+      <addaction name="action3CM"/>
+      <addaction name="action3AF"/>
+      <addaction name="action5th_4"/>
+      <addaction name="action6th_4"/>
+      <addaction name="action7th_4"/>
+      <addaction name="action8th_4"/>
+     </widget>
+     <addaction name="menu1st"/>
+     <addaction name="menu2nd"/>
+     <addaction name="menu3rd"/>
+     <addaction name="action4rd"/>
+     <addaction name="action5th"/>
+     <addaction name="action6th"/>
+     <addaction name="action7th"/>
+     <addaction name="action8th"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="menubook"/>
+    <addaction name="actionclass"/>
+    <addaction name="actionsilybus"/>
+    <addaction name="actionAll_book"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+    <addaction name="actiongo_to_developer_website"/>
+    <addaction name="actiongoto"/>
+   </widget>
+   <addaction name="menuoption"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAll_book"/>
+   <addaction name="actionsilybus"/>
+   <addaction name="actiongo_to_developer_website"/>
+   <addaction name="actiongoto"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionclass">
+   <property name="text">
+    <string>classrutine</string>
+   </property>
+  </action>
+  <action name="actionsilybus">
+   <property name="icon">
+    <iconset resource="resorce.qrc">
+     <normaloff>:/res/images/book-16-48.ico</normaloff>:/res/images/book-16-48.ico</iconset>
+   </property>
+   <property name="text">
+    <string>silybus</string>
+   </property>
+  </action>
+  <action name="actiongo_to_developer_website">
+   <property name="icon">
+    <iconset resource="resorce.qrc">
+     <normaloff>:/res/images/help-64.ico</normaloff>:/res/images/help-64.ico</iconset>
+   </property>
+   <property name="text">
+    <string>go to developer website</string>
+   </property>
+  </action>
+  <action name="actiongoto">
+   <property name="icon">
+    <iconset resource="resorce.qrc">
+     <normaloff>:/res/images/talk-64.ico</normaloff>:/res/images/talk-64.ico</iconset>
+   </property>
+   <property name="text">
+    <string>talk to the devoloper</string>
+   </property>
+  </action>
+  <action name="action4rd">
+   <property name="text">
+    <string>BBA</string>
+   </property>
+  </action>
+  <action name="action5th">
+   <property name="text">
+    <string>5th</string>
+   </property>
+  </action>
+  <action name="action6th">
+   <property name="text">
+    <string>6th</string>
+   </property>
+  </action>
+  <action name="action7th">
+   <property name="text">
+    <string>7th</string>
+   </property>
+  </action>
+  <action name="action8th">
+   <property name="text">
+    <string>8th</string>
+   </property>
+  </action>
+  <action name="actionCSE1st">
+   <property name="text">
+    <string>1st</string>
+   </property>
+  </action>
+  <action name="actionCSE2nd">
+   <property name="text">
+    <string>2nd</string>
+   </property>
+  </action>
+  <action name="actionCSE3rd">
+   <property name="text">
+    <string>3rd</string>
+   </property>
+  </action>
+  <action name="actionCSE4th">
+   <property name="text">
+    <string>4th</string>
+   </property>
+  </action>
+  <action name="action2AM">
+   <property name="text">
+    <string>1st</string>
+   </property>
+  </action>
+  <action name="action2BM">
+   <property name="text">
+    <string>2nd</string>
+   </property>
+  </action>
+  <action name="action2CM">
+   <property name="text">
+    <string>3rd</string>
+   </property>
+  </action>
+  <action name="action2AF">
+   <property name="text">
+    <string>4th</string>
+   </property>
+  </action>
+  <action name="action3AM">
+   <property name="text">
+    <string>1st</string>
+   </property>
+  </action>
+  <action name="action3BM">
+   <property name="text">
+    <string>2nd</string>
+   </property>
+  </action>
+  <action name="action3CM">
+   <property name="text">
+    <string>3rd</string>
+   </property>
+  </action>
+  <action name="action3AF">
+   <property name="text">
+    <string>4th</string>
+   </property>
+  </action>
+  <action name="actionCSE5th">
+   <property name="text">
+    <string>5th</string>
+   </property>
+  </action>
+  <action name="actionCSE6th">
+   <property name="text">
+    <string>6th</string>
+   </property>
+  </action>
+  <action name="actionCSE7th">
+   <property name="text">
+    <string>7th</string>
+   </property>
+  </action>
+  <action name="actionCSE8th">
+   <property name="text">
+    <string>8th</string>
+   </property>
+  </action>
+  <action name="action5th_3">
+   <property name="text">
+    <string>5th</string>
+   </property>
+  </action>
+  <action name="action6th_3">
+   <property name="text">
+    <string>6th</string>
+   </property>
+  </action>
+  <action name="action7th_3">
+   <property name="text">
+    <string>7th</string>
+   </property>
+  </action>
+  <action name="action8th_3">
+   <property name="text">
+    <string>8th</string>
+   </property>
+  </action>
+  <action name="action5th_4">
+   <property name="text">
+    <string>5th</string>
+   </property>
+  </action>
+  <action name="action6th_4">
+   <property name="text">
+    <string>6th</string>
+   </property>
+  </action>
+  <action name="action7th_4">
+   <property name="text">
+    <string>7th</string>
+   </property>
+  </action>
+  <action name="action8th_4">
+   <property name="text">
+    <string>8th</string>
+   </property>
+  </action>
+  <action name="actionAll_book">
+   <property name="icon">
+    <iconset resource="resorce.qrc">
+     <normaloff>:/res/images/books-64.ico</normaloff>:/res/images/books-64.ico</iconset>
+   </property>
+   <property name="text">
+    <string>All book</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resorce.qrc"/>
+ </resources>
+ <connections/>
+</ui>

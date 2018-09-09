@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>images/designboommoleskinerieb03a.jpg</file>
+        <file>images/book-16-48.ico</file>
+        <file>images/talk-64.ico</file>
+        <file>images/arrow-55-64.ico</file>
+        <file>images/books-64.ico</file>
+        <file>images/bus-4-64.ico</file>
+        <file>images/help-64.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/rsz_picsart_08-29-015850.jpg</file>
+        <file>images/pic.png</file>
+        <file>images/IMG_20180829_022253.jpg</file>
+        <file>images/IMG_20180825_133444.jpg</file>
+        <file>images/image/deer.jpg</file>
+        <file>images/image/pic1.jpg</file>
+        <file>images/image/pic2.jpg</file>
+        <file>images/image/tiger.jpg</file>
+        <file>images/image/tiger2.jpg</file>
+    </qresource>
+</RCC>
