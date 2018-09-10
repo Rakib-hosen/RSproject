@@ -2,6 +2,7 @@
 #define THDIALOG_H
 
 #include <QDialog>
+#include<QString>
 
 namespace Ui {
 class thDialog;
@@ -12,7 +13,8 @@ class thDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit thDialog(QWidget *parent = nullptr);
+    QString c;
+    explicit thDialog(QWidget *parent = nullptr,QString t="");
     ~thDialog();
 
 private slots:

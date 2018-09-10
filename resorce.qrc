@@ -7,6 +7,7 @@
         <file>images/books-64.ico</file>
         <file>images/bus-4-64.ico</file>
         <file>images/help-64.ico</file>
+        <file>attendence.csv</file>
     </qresource>
     <qresource prefix="/">
         <file>images/rsz_picsart_08-29-015850.jpg</file>

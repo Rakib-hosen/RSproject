@@ -22,7 +22,7 @@ SecDialog::~SecDialog()
 
 void SecDialog::on_pushButton_sylabus_clicked()
 {
-    thDialog *dialod = new thDialog(this);
+    thDialog *dialod = new thDialog(this,"syllabus");
      dialod -> show();
 }
 void SecDialog::on_pushButton_lopgout_clicked()
@@ -43,7 +43,8 @@ void SecDialog::on_pushButton_clicked()
 
 void SecDialog::on_pushButton_notice_clicked()
 {
-    QMessageBox::information(this,"SORRY", "Devoloper is working for this,stay with us!!");
+   thDialog *d=new thDialog(this,"notice");
+   d->show();
 }
 
 void SecDialog::on_pushButton_classroutine_clicked()

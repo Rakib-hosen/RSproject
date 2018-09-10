@@ -25,6 +25,8 @@ MainWindow::MainWindow(QWidget *parent) :
     int p= ui->label_5->width();
       int q=ui->label_5->height();
     ui->label_5->setPixmap(pixb.scaled(p,q));
+
+
 }
 
 MainWindow::~MainWindow()

@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include<QString>
+#include<QFile>
+#include<QDateTime>
 
 namespace Ui {
 class attendenceDialog;
@@ -70,8 +72,73 @@ private slots:
 
     void on_checkBox_16_stateChanged(int arg1);
 
+    void on_checkBox_17_stateChanged(int arg1);
+
+    void on_checkBox_18_stateChanged(int arg1);
+
+    void on_checkBox_19_stateChanged(int arg1);
+
+    void on_checkBox_20_stateChanged(int arg1);
+
+    void on_checkBox_21_stateChanged(int arg1);
+
+    void on_checkBox_22_stateChanged(int arg1);
+
+    void on_checkBox_23_stateChanged(int arg1);
+
+    void on_checkBox_24_stateChanged(int arg1);
+
+    void on_checkBox_25_stateChanged(int arg1);
+
+    void on_checkBox_26_stateChanged(int arg1);
+
+    void on_checkBox_27_stateChanged(int arg1);
+
+    void on_checkBox_28_stateChanged(int arg1);
+
+    void on_checkBox_29_stateChanged(int arg1);
+
+    void on_checkBox_30_stateChanged(int arg1);
+
+    void on_checkBox_31_stateChanged(int arg1);
+
+    void on_checkBox_32_stateChanged(int arg1);
+
+    void on_checkBox_33_stateChanged(int arg1);
+
+    void on_checkBox_34_stateChanged(int arg1);
+
+    void on_checkBox_35_stateChanged(int arg1);
+
+    void on_checkBox_36_stateChanged(int arg1);
+
+    void on_checkBox_37_stateChanged(int arg1);
+
+    void on_checkBox_38_stateChanged(int arg1);
+
+    void on_checkBox_39_stateChanged(int arg1);
+
+    void on_checkBox_40_stateChanged(int arg1);
+
+    void on_checkBox_41_stateChanged(int arg1);
+
+    void on_checkBox_42_stateChanged(int arg1);
+
+    void on_checkBox_43_stateChanged(int arg1);
+
+    void on_checkBox_44_stateChanged(int arg1);
+
+    void on_checkBox_45_stateChanged(int arg1);
+
+    void on_checkBox_46_stateChanged(int arg1);
+
+    void on_checkBox_47_stateChanged(int arg1);
+
+    void on_checkBox_48_stateChanged(int arg1);
 
 
+
+    void on_ok_clicked();
 
 private:
     Ui::attendenceDialog *ui;
