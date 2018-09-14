@@ -208,7 +208,7 @@ void sylabusDialog::on_pushButton_2_clicked()
 void sylabusDialog::on_pushButton_clicked()
 {
     i=i-1;
-    if(i==0)
+    if(i==0||i<0)
     {
         i=2;
     }

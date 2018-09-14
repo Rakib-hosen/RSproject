@@ -1,11 +1,14 @@
 #include "secdialog.h"
 #include "ui_secdialog.h"
-#include"thdialog.h"
 #include<QDesktopServices>
 #include<QUrl>
+#include "tutorialdialog.h"
+#include "ui_tutorialdialog.h"
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QMessageBox>
+#include "thdialog.h"
+#include "ui_thdialog.h"
 
 SecDialog::SecDialog(QWidget *parent) :
     QDialog(parent),
@@ -16,6 +19,7 @@ SecDialog::SecDialog(QWidget *parent) :
 
 SecDialog::~SecDialog()
 {
+
     delete ui;
 }
 
@@ -56,7 +60,7 @@ void SecDialog::on_tutorial_clicked()
 {
 
     hide();
-    Dialog *ab= new Dialog(this);
+    tutorialDialog *ab= new tutorialDialog(this);
     ab ->show();
 }
 

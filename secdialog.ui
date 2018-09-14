@@ -16,11 +16,24 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>670</x>
-     <y>360</y>
-     <width>75</width>
-     <height>30</height>
+     <x>630</x>
+     <y>330</y>
+     <width>141</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton {
+    background-color:rgb(255, 82, 241);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Back</string>
@@ -30,10 +43,23 @@
    <property name="geometry">
     <rect>
      <x>630</x>
-     <y>400</y>
-     <width>145</width>
-     <height>30</height>
+     <y>389</y>
+     <width>141</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_lopgout {
+    background-color:rgb(255, 24, 27);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Log out</string>
@@ -44,13 +70,26 @@
     <rect>
      <x>40</x>
      <y>30</y>
-     <width>201</width>
+     <width>233</width>
      <height>381</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="pushButton_sylabus">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_sylabus {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Sylabus</string>
       </property>
@@ -58,6 +97,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_cnote">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_cnote {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Class Note</string>
       </property>
@@ -65,6 +117,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_notice">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_notice {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Notice</string>
       </property>
@@ -72,6 +137,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_classroutine">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_classroutine {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Class Routine</string>
       </property>
@@ -79,6 +157,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="bus_schedule">
+      <property name="styleSheet">
+       <string notr="true">#bus_schedule {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Bus Schedule</string>
       </property>
@@ -86,6 +177,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="iiuc_campus_map">
+      <property name="styleSheet">
+       <string notr="true">#iiuc_campus_map {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>IIUC Campus Map</string>
       </property>
@@ -93,6 +197,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="share_your_assignment">
+      <property name="styleSheet">
+       <string notr="true">#share_your_assignment {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Share Your Assignment</string>
       </property>
@@ -100,6 +217,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="contact_your_teacher">
+      <property name="styleSheet">
+       <string notr="true">#contact_your_teacher {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Contact Your Teacher</string>
       </property>
@@ -110,28 +240,54 @@
   <widget class="QPushButton" name="tutorial">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>590</x>
      <y>10</y>
-     <width>110</width>
+     <width>191</width>
      <height>60</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#tutorial {
+    background-color: rgb(105, 125, 255);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 6px;
+} </string>
    </property>
    <property name="text">
     <string>Help and Tutorial</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>290</x>
-     <y>50</y>
-     <width>158</width>
-     <height>351</height>
+     <y>30</y>
+     <width>273</width>
+     <height>261</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <widget class="QPushButton" name="devolop_your_programming_skill">
+      <property name="styleSheet">
+       <string notr="true">#devolop_your_programming_skill {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Devolop Your programming skill</string>
       </property>
@@ -139,6 +295,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="talk_to_ypur_friend">
+      <property name="styleSheet">
+       <string notr="true">#talk_to_ypur_friend {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Talk To Your Friend</string>
       </property>
@@ -146,6 +315,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="adviser">
+      <property name="styleSheet">
+       <string notr="true">#adviser{
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>About Your Adviser</string>
       </property>
@@ -153,6 +335,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="watch_your_student_profile">
+      <property name="styleSheet">
+       <string notr="true">#watch_your_student_profile {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Watch Your Student Profile</string>
       </property>
@@ -160,6 +355,19 @@
     </item>
     <item>
      <widget class="QPushButton" name="advice_us">
+      <property name="styleSheet">
+       <string notr="true">#advice_us{
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+      </property>
       <property name="text">
        <string>Advice Us</string>
       </property>

@@ -10,6 +10,9 @@
     <height>526</height>
    </rect>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -17,10 +20,10 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>160</y>
-      <width>341</width>
-      <height>351</height>
+      <x>280</x>
+      <y>140</y>
+      <width>361</width>
+      <height>291</height>
      </rect>
     </property>
     <property name="font">
@@ -37,8 +40,8 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>271</width>
-       <height>151</height>
+       <width>331</width>
+       <height>177</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
@@ -46,13 +49,37 @@
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
          <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">#label{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+} 
+</string>
+          </property>
           <property name="text">
            <string>User Name</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_username"/>
+         <widget class="QLineEdit" name="lineEdit_username">
+          <property name="styleSheet">
+           <string notr="true">#lineEdit_username {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 255, 127);
+    border-radius: 4px;
+
+} 
+#lineEdit_username:focus {
+    background-color: lightblue;
+}</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -60,6 +87,22 @@
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#label_2{
+    text-align: center;
+    text-decoration:none;
+    font-size: 16px;
+
+} 
+</string>
+          </property>
           <property name="text">
            <string>Password</string>
           </property>
@@ -67,6 +110,20 @@
         </item>
         <item>
          <widget class="QLineEdit" name="lineEdit_password">
+          <property name="styleSheet">
+           <string notr="true">#lineEdit_password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 255, 127);
+    border-radius: 4px;
+
+}
+#lineEdit_password:focus {
+    background-color: lightblue;
+}</string>
+          </property>
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
           </property>
@@ -91,6 +148,25 @@
         </item>
         <item>
          <widget class="QPushButton" name="pushButton_login">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_login {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} 
+#pushButton_login:hover {
+ background-color: rgb(0, 255, 0);
+}</string>
+          </property>
           <property name="text">
            <string>Login</string>
           </property>
@@ -98,6 +174,26 @@
         </item>
         <item>
          <widget class="QPushButton" name="pushButton_close">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#pushButton_close {
+    background-color: rgb(180, 0, 0);
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} 
+#pushButton_close:hover {
+    
+background-color: #ff1d1d;
+}</string>
+          </property>
           <property name="text">
            <string>Close</string>
           </property>
@@ -150,11 +246,31 @@
    <widget class="QPushButton" name="tutorial">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>425</y>
-      <width>110</width>
-      <height>60</height>
+      <x>760</x>
+      <y>420</y>
+      <width>231</width>
+      <height>71</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#tutorial {
+    background-color: rgb(105, 125, 255);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 6px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#tutorial:hover{
+ background-color:rgb(47, 33, 255) ;
+}</string>
     </property>
     <property name="text">
      <string>Help and Tutorial</string>

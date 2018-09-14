@@ -303,7 +303,7 @@
      <x>40</x>
      <y>10</y>
      <width>16</width>
-     <height>381</height>
+     <height>371</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -427,119 +427,119 @@
      <x>10</x>
      <y>10</y>
      <width>16</width>
-     <height>364</height>
+     <height>371</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_4">
     <item>
      <widget class="QCheckBox" name="checkBox_33">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_34">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_35">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_36">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_37">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_38">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_39">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_40">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_41">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_42">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_43">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_44">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_45">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_46">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_47">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="checkBox_48">
       <property name="text">
-       <string>CheckBox</string>
+       <string/>
       </property>
      </widget>
     </item>

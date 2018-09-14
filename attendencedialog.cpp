@@ -8,6 +8,8 @@
 #include<fstream>
 #include<QDateTime>
 #include<bits/stdc++.h>
+#include "fodialog.h"
+#include "ui_fodialog.h"
 using namespace std;
 
 attendenceDialog::attendenceDialog(QWidget *parent) :
@@ -489,8 +491,8 @@ void attendenceDialog::on_ok_clicked()
 {
     QTime time = QTime::currentTime();
     QString time_text= time.toString("hh : mm : ss");
-    QDate date = QDate::currentDate();
-    QString date_text=date.toString("dd : MM : yyyy");
+    QDate d =QDate::currentDate();
+    QString d_t=d.toString("dd : MM : yyyy");
     QString filename="H:/New folder/RS_project-master/attendence.csv";
     QFile file( filename );
     if ( file.open(QIODevice::ReadWrite | QIODevice::Text ) )
@@ -503,7 +505,7 @@ void attendenceDialog::on_ok_clicked()
     if ( file.open(QIODevice::ReadWrite | QIODevice::Text | QIODevice::Append) )
     {
         QTextStream stream( &file );
-        stream << b[0]<<"," <<b[1]<<"," <<b[2] <<","<<b[3]<<"," <<b[4]<<"," <<b[5]<<"," <<b[6]<<"," <<b[7]<<","<<b[8]<<","<< b[9]<<","<<b[10]<<"," <<b[11]<<"," <<b[12] <<","<<b[13]<<"," <<b[14]<<"," <<b[15]<<","<<time_text<<","<<date_text<< endl;
+        stream << b[0]<<"," <<b[1]<<"," <<b[2] <<","<<b[3]<<"," <<b[4]<<"," <<b[5]<<"," <<b[6]<<"," <<b[7]<<","<<b[8]<<","<< b[9]<<","<<b[10]<<"," <<b[11]<<"," <<b[12] <<","<<b[13]<<"," <<b[14]<<"," <<b[15]<<","<<time_text<<","<<d_t<< endl;
     }
     hide();
    /* if(file.exists()){
@@ -514,6 +516,14 @@ void attendenceDialog::on_ok_clicked()
           myfile.close();
 
     }*/
+    attendenceDialog *a=new attendenceDialog;
+    a->show();
 
 
+}
+
+void attendenceDialog::on_back_clicked()
+{
+    foDialog *n=new foDialog;
+    n->show();
 }

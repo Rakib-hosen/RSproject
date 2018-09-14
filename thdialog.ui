@@ -61,7 +61,33 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit"/>
+         <widget class="QComboBox" name="comboBox">
+          <item>
+           <property name="text">
+            <string>CSE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>EEE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ETE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BBA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FARMASI</string>
+           </property>
+          </item>
+         </widget>
         </item>
        </layout>
       </item>
@@ -75,7 +101,48 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2"/>
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>1ST</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2ND</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>3RD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4TH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>5TH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>6TH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>7TH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8TH</string>
+           </property>
+          </item>
+         </widget>
         </item>
        </layout>
       </item>

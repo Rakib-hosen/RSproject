@@ -140,6 +140,8 @@ private slots:
 
     void on_ok_clicked();
 
+    void on_back_clicked();
+
 private:
     Ui::attendenceDialog *ui;
 };

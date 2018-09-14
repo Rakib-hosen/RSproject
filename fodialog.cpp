@@ -20,12 +20,14 @@ foDialog::~foDialog()
 void foDialog::on_pushButton_3_clicked()
 {
 
+    hide();
     MainWindow *window = new MainWindow();
     window -> show();
 }
 
 void foDialog::on_attendence_clicked()
 {
+    hide();
     attendenceDialog *attend = new attendenceDialog;
     attend->show();
 }

@@ -24,8 +24,8 @@ thDialog::~thDialog()
 
 void thDialog::on_pushButton_ok_clicked()
 {
-    QString department=ui->lineEdit->text();
-    QString semester=ui->lineEdit_2->text();
+    QString department=ui->comboBox->currentText();
+    QString semester=ui->comboBox_2->currentText();
 
     sylabusDialog *sly =new sylabusDialog(nullptr,department,semester,c);
     sly->show();

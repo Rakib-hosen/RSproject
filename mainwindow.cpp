@@ -5,6 +5,8 @@
 #include<QPixmap>
 #include<QDesktopServices>
 #include<QUrl>
+#include "tutorialdialog.h"
+#include "ui_tutorialdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -132,6 +134,6 @@ void MainWindow::on_actiongoto_triggered()
 void MainWindow::on_tutorial_clicked()
 {
    hide();
-   Dialog *ab= new Dialog(this);
+   tutorialDialog *ab= new tutorialDialog(this);
    ab ->show();
 }

@@ -3,11 +3,6 @@
 
 #include <QMainWindow>
 #include"secdialog.h"
-#include"dialog.h"
-#include"dialog1.h"
-#include"dialog2.h"
-#include"dialog3.h"
-#include"dialog4.h"
 #include"fodialog.h"
 #include"addmindialog.h"
 #include"advisedialog.h"
