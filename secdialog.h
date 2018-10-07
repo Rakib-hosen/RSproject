@@ -12,7 +12,9 @@ class SecDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit SecDialog(QWidget *parent = nullptr);
+    QString line;
+    explicit SecDialog(QWidget *parent = nullptr,QString a="");
+    QString id;
     ~SecDialog();
 
 private slots:

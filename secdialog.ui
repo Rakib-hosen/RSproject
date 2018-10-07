@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>785</width>
-    <height>450</height>
+    <height>511</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,6 +21,9 @@
      <width>141</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">#pushButton {
@@ -48,6 +51,9 @@ border-radius: 4px;
      <height>41</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">#pushButton_lopgout {
     background-color:rgb(255, 24, 27);
@@ -69,7 +75,7 @@ border-radius: 4px;
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>30</y>
+     <y>100</y>
      <width>233</width>
      <height>381</height>
     </rect>
@@ -77,6 +83,9 @@ border-radius: 4px;
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="pushButton_sylabus">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#pushButton_sylabus {
     background-color: rgb(91, 91, 127);
@@ -88,7 +97,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#pushButton_sylabus:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Sylabus</string>
@@ -97,6 +109,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_cnote">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#pushButton_cnote {
     background-color: rgb(91, 91, 127);
@@ -108,7 +123,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#pushButton_cnote:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Class Note</string>
@@ -117,6 +135,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_notice">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#pushButton_notice {
     background-color: rgb(91, 91, 127);
@@ -128,7 +149,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#pushButton_notice:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Notice</string>
@@ -137,6 +161,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_classroutine">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#pushButton_classroutine {
     background-color: rgb(91, 91, 127);
@@ -148,7 +175,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#pushButton_classroutine:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Class Routine</string>
@@ -157,6 +187,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="bus_schedule">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#bus_schedule {
     background-color: rgb(91, 91, 127);
@@ -168,7 +201,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#bus_schedule:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Bus Schedule</string>
@@ -177,6 +213,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="iiuc_campus_map">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#iiuc_campus_map {
     background-color: rgb(91, 91, 127);
@@ -188,50 +227,13 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#iiuc_campus_map:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>IIUC Campus Map</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="share_your_assignment">
-      <property name="styleSheet">
-       <string notr="true">#share_your_assignment {
-    background-color: rgb(91, 91, 127);
-    border: none;
-    color: white;
-    padding: 7px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-border-radius: 4px;
-} </string>
-      </property>
-      <property name="text">
-       <string>Share Your Assignment</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="contact_your_teacher">
-      <property name="styleSheet">
-       <string notr="true">#contact_your_teacher {
-    background-color: rgb(91, 91, 127);
-    border: none;
-    color: white;
-    padding: 7px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-border-radius: 4px;
-} </string>
-      </property>
-      <property name="text">
-       <string>Contact Your Teacher</string>
       </property>
      </widget>
     </item>
@@ -246,6 +248,9 @@ border-radius: 4px;
      <height>60</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">#tutorial {
     background-color: rgb(105, 125, 255);
@@ -257,7 +262,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 6px;
-} </string>
+} 
+#tutorial:hover{
+ background-color:rgb(47, 33, 255) ;
+}</string>
    </property>
    <property name="text">
     <string>Help and Tutorial</string>
@@ -267,14 +275,17 @@ border-radius: 6px;
    <property name="geometry">
     <rect>
      <x>290</x>
-     <y>30</y>
+     <y>100</y>
      <width>273</width>
-     <height>261</height>
+     <height>381</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <widget class="QPushButton" name="devolop_your_programming_skill">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#devolop_your_programming_skill {
     background-color: rgb(91, 91, 127);
@@ -286,7 +297,10 @@ border-radius: 6px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#devolop_your_programming_skill:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Devolop Your programming skill</string>
@@ -295,6 +309,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="talk_to_ypur_friend">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#talk_to_ypur_friend {
     background-color: rgb(91, 91, 127);
@@ -306,7 +323,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#talk_to_ypur_friend:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Talk To Your Friend</string>
@@ -315,6 +335,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="adviser">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#adviser{
     background-color: rgb(91, 91, 127);
@@ -326,7 +349,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#adviser:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>About Your Adviser</string>
@@ -335,6 +361,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="watch_your_student_profile">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#watch_your_student_profile {
     background-color: rgb(91, 91, 127);
@@ -346,7 +375,10 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#watch_your_student_profile:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Watch Your Student Profile</string>
@@ -355,6 +387,9 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QPushButton" name="advice_us">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">#advice_us{
     background-color: rgb(91, 91, 127);
@@ -366,14 +401,100 @@ border-radius: 4px;
     display: inline-block;
     font-size: 16px;
 border-radius: 4px;
-} </string>
+} 
+#advice_us:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
       </property>
       <property name="text">
        <string>Advice Us</string>
       </property>
      </widget>
     </item>
+    <item>
+     <widget class="QPushButton" name="contact_your_teacher">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#contact_your_teacher {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} 
+#contact_your_teacher:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
+      </property>
+      <property name="text">
+       <string>Contact Your Teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="share_your_assignment">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#share_your_assignment {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} 
+#share_your_assignment:hover{
+ background-color: rgb(44, 59, 127);
+}</string>
+      </property>
+      <property name="text">
+       <string>Share Your Assignment</string>
+      </property>
+     </widget>
+    </item>
    </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{
+    background-color:rgb(44, 59, 127);
+  
+    color:rgb(255, 255, 0);
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+	border-width: 3px;
+	border-style:solid;
+    border-color:rgb(85, 170, 255);
+
+
+border-radius:25px;
+} </string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
   </widget>
  </widget>
  <resources/>

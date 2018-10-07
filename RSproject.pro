@@ -31,7 +31,9 @@ SOURCES += \
     addmindialog.cpp \
     attendencedialog.cpp \
     sylabusdialog.cpp \
-    tutorialdialog.cpp
+    tutorialdialog.cpp \
+    adduser.cpp \
+    message.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -41,7 +43,9 @@ HEADERS += \
     addmindialog.h \
     attendencedialog.h \
     sylabusdialog.h \
-    tutorialdialog.h
+    tutorialdialog.h \
+    adduser.h \
+    message.h
 
 FORMS += \
         mainwindow.ui \
@@ -51,7 +55,9 @@ FORMS += \
     addmindialog.ui \
     attendencedialog.ui \
     sylabusdialog.ui \
-    tutorialdialog.ui
+    tutorialdialog.ui \
+    adduser.ui \
+    message.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>483</width>
-    <height>408</height>
+    <width>675</width>
+    <height>539</height>
    </rect>
   </property>
   <property name="font">
@@ -18,30 +18,11 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>80</y>
-     <width>231</width>
-     <height>131</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>20</pointsize>
-     <italic>true</italic>
-    </font>
-   </property>
-   <property name="text">
-    <string>     Jamil  As-ad</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>20</y>
+     <x>220</x>
+     <y>50</y>
      <width>311</width>
      <height>51</height>
     </rect>
@@ -58,11 +39,24 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>350</y>
+     <x>450</x>
+     <y>470</y>
      <width>199</width>
-     <height>25</height>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_3 {
+    background-color:rgb(255, 24, 27);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Log Out</string>
@@ -71,11 +65,24 @@
   <widget class="QPushButton" name="fo_comment">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>170</y>
-     <width>75</width>
-     <height>23</height>
+     <x>50</x>
+     <y>180</y>
+     <width>161</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#fo_comment {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Comment</string>
@@ -84,11 +91,24 @@
   <widget class="QPushButton" name="fo_updat_profile">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>210</y>
-     <width>75</width>
-     <height>23</height>
+     <x>50</x>
+     <y>230</y>
+     <width>161</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#fo_updat_profile {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Update </string>
@@ -97,11 +117,24 @@
   <widget class="QPushButton" name="attendence">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>250</y>
-     <width>75</width>
-     <height>23</height>
+     <x>50</x>
+     <y>280</y>
+     <width>161</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#attendence {
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Attendence</string>
@@ -110,14 +143,79 @@
   <widget class="QPushButton" name="f0_bus_schedule">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>290</y>
-     <width>75</width>
-     <height>23</height>
+     <x>50</x>
+     <y>330</y>
+     <width>161</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#f0_bus_schedule{
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
    </property>
    <property name="text">
     <string>Bus Schedule</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_teacher">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>220</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#add_teacher{
+    background-color:rgb(85, 170, 255);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+   </property>
+   <property name="text">
+    <string>Add Teacher</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="watch_your_profile">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>380</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#watch_your_profile{
+    background-color: rgb(91, 91, 127);
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+border-radius: 4px;
+} </string>
+   </property>
+   <property name="text">
+    <string>Profile</string>
    </property>
   </widget>
  </widget>

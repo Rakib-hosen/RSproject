@@ -12,13 +12,18 @@ class foDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit foDialog(QWidget *parent = nullptr);
+    QString id;
+    explicit foDialog(QWidget *parent = nullptr,QString a="");
     ~foDialog();
 
 private slots:
     void on_pushButton_3_clicked();
 
     void on_attendence_clicked();
+
+    void on_add_teacher_clicked();
+
+    void on_watch_your_profile_clicked();
 
 private:
     Ui::foDialog *ui;

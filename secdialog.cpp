@@ -9,12 +9,27 @@
 #include<QMessageBox>
 #include "thdialog.h"
 #include "ui_thdialog.h"
+#include "message.h"
+#include<QFile>
+#include<QTextStream>
 
-SecDialog::SecDialog(QWidget *parent) :
+SecDialog::SecDialog(QWidget *parent,QString a) :
     QDialog(parent),
     ui(new Ui::SecDialog)
 {
     ui->setupUi(this);
+    id=a;
+
+    QString filename="H:/New folder/RS_project-master/Student/"+id+".txt";
+    QFile file( filename );
+    if ( file.open(QIODevice::ReadOnly) )
+    {
+        QTextStream in(&file);
+        line = in.readLine();
+
+    }
+    file.close();
+    ui->label->setText("WELLCOME , "+line);
 }
 
 SecDialog::~SecDialog()
@@ -86,7 +101,9 @@ void SecDialog::on_contact_your_teacher_clicked()
 
 void SecDialog::on_watch_your_student_profile_clicked()
 {
-    QMessageBox::information(this,"SORRY", "Devoloper is working for this,stay with us!!");
+    hide();
+   message *a=new message(nullptr,id,"stdf");
+   a->show();
 }
 
 void SecDialog::on_devolop_your_programming_skill_clicked()
@@ -96,12 +113,17 @@ void SecDialog::on_devolop_your_programming_skill_clicked()
 
 void SecDialog::on_talk_to_ypur_friend_clicked()
 {
-    QMessageBox::information(this,"SORRY", "Devoloper is working for this,stay with us!!");
+    hide();
+    message *a =new message(nullptr,id,"Friend");
+    a->show();
 }
 
 void SecDialog::on_advice_us_clicked()
 {
-  QMessageBox::information(this,"SORRY", "Devoloper is working for this,stay with us!!");
+    hide();
+    message *a =new message(nullptr,id);
+    a->show();
+
 }
 
 void SecDialog::on_adviser_clicked()
